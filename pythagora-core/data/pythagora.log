@@ -1,0 +1,107 @@
+2025-10-25T20:08:20.725Z INFO SharedStateManager initialized
+2025-10-25T20:08:20.725Z INFO Is remote: false
+2025-10-25T20:08:20.726Z INFO Starting Local. Installation path: c:\smart-math-coach
+2025-10-25T20:08:20.727Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-25T20:08:20.729Z INFO Installation path exists: c:\smart-math-coach
+2025-10-25T20:08:20.730Z INFO Initializing database with URL: file:c:\smart-math-coach\pythagora-core\data\database\pythagora.db
+2025-10-25T20:08:20.733Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-25T20:08:20.734Z INFO Database initialized successfully
+2025-10-25T20:08:20.736Z INFO [Migration] Checking for database migration...
+2025-10-25T20:08:21.132Z INFO [Migration] No migration needed
+2025-10-25T20:08:21.702Z INFO Starting right sidebar creation...
+2025-10-25T20:08:21.702Z INFO Initializing MainProvider...
+2025-10-25T20:08:21.703Z INFO Updating user profile...
+2025-10-25T20:08:21.703Z INFO No access token found when trying to fetch user profile
+2025-10-25T20:08:21.704Z INFO Creating right panel...
+2025-10-25T20:08:21.704Z INFO Creating right panel...
+2025-10-25T20:08:21.705Z INFO Closing all existing tabs...
+2025-10-25T20:08:21.706Z INFO Right panel webview created
+2025-10-25T20:08:21.708Z INFO Right panel HTML set successfully
+2025-10-25T20:08:21.708Z INFO Right panel setup completed
+2025-10-25T20:08:21.709Z INFO Setting up right panel dependencies...
+2025-10-25T20:08:21.722Z INFO Right panel dependencies setup complete, waiting for ready signal...
+2025-10-25T20:08:22.604Z INFO MainProvider handleMessage {"command":"rightPanelReady","data":{},"source":"right"}
+2025-10-25T20:08:22.604Z INFO Routing rightPanelReady through new unified router from right
+2025-10-25T20:08:22.605Z INFO [Message Router] Routing rightPanelReady through unified router
+2025-10-25T20:08:22.643Z INFO MainProvider handleMessage {"command":"getDeployments","data":"","route":"forwardToRight","source":"right"}
+2025-10-25T20:08:22.644Z INFO Routing getDeployments through new unified router from right
+2025-10-25T20:08:22.644Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-25T20:08:22.649Z ERROR Error getting deployments:
+Error: Missing access token
+Stack: Error: Missing access token
+    at getDeployments (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\utils\deployments.js:254:15)
+    at getAndSendDeployments (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\deployment.js:292:64)
+    at Object.handleGetDeployments [as getDeployments] (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\deployment.js:67:15)
+    at handleMessage (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\messageRouter.js:113:40)
+    at MainProvider.handleUnifiedMessage (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:224:49)
+    at MainProvider.handleMessage (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:717:24)
+    at Object.handleRightSidebarMessage (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:67:56)
+    at od.value (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\managers\WebviewManager.js:209:46)
+    at $.C (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.D (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+    at $.fire (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+    at UV.$onMessage (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:92663)
+    at U4.S (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120964)
+    at U4.Q (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120744)
+    at U4.M (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119833)
+    at U4.L (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119071)
+    at od.value (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117735)
+    at $.C (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at od.value (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:8616)
+    at $.C (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at MessagePortMain.<anonymous> (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6908)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Missing access token"
+}
+2025-10-25T20:08:22.664Z INFO MainProvider handleMessage {"command":"rightBarRendered","data":"","source":"right"}
+2025-10-25T20:08:22.665Z INFO Right panel setup completed successfully
+2025-10-25T20:08:22.665Z INFO Right panel created via MainProvider
+2025-10-25T20:08:22.666Z INFO Storing initial prompt...
+2025-10-25T20:08:22.667Z INFO Tracing first panel open...
+2025-10-25T20:08:22.667Z INFO Right sidebar setup completed successfully
+2025-10-25T20:08:22.670Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-25T20:08:22.671Z INFO Routing updateUserProfile through new unified router from right
+2025-10-25T20:08:22.671Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-25T20:08:22.672Z INFO No access token found when trying to fetch user profile
+2025-10-25T20:08:34.288Z INFO Right panel disposed, triggering cleanup...
+2025-10-25T20:08:34.289Z INFO Right panel disposed, cleaning up...
+2025-10-25T20:08:34.904Z INFO MainProvider handleMessage {"command":"coreExited","route":"broadcast"}
+2025-10-25T20:08:34.904Z INFO Routing coreExited through new unified router from unknown
+2025-10-25T20:08:34.905Z INFO [Message Router] Routing coreExited through unified router
+2025-10-25T20:08:34.905Z INFO Closing entire Pythagora extension...
+2025-10-25T20:08:34.908Z INFO Pythagora extension closed
+2025-10-25T20:08:38.576Z INFO Closing entire Pythagora extension...
+2025-10-25T20:08:38.579Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:390:31)
+    at Object.deactivate (c:\Users\vavas\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:295:15)
+    at SZ.eb (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/vavas/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
